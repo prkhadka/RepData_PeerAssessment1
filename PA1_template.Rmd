@@ -122,3 +122,20 @@ newActivity=aggregate(steps~interval+day,newActivity,mean)
 library(lattice)
 xyplot(steps~interval|factor(day),data=newActivity,aspect=1/2,type="l",ylab="Number of Steps")
 ``` 
+=======
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
